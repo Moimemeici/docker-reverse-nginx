@@ -60,7 +60,7 @@ docker build -t xataz/reverse-nginx --build-arg NGINX_VER=1.9.5 github.com/xataz
 
 ### Volumes
 * /nginx/ssl : For certificate persistance
-* /nginx/sites_enabled : Warning, this file can be delete if restart container
+* /nginx/sites-enabled : Warning, this file can be delete if restart container
 * /nginx/path.d : Warning, this file can be delete if restart container 
 * /nginx/custom_sites : For create your own sites
 
